@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5d1049</color>
+    <color name="colorPrimaryVariant">#5d1049</color>
+    <color name="colorSecondary">#fa3336</color>
+    <color name="colorSecondaryVariant">#710910</color>
+    <color name="colorSurface">#ffffff</color>
+    <color name="colorSurfaceLight">#ffffff</color>
+    <color name="colorSurfaceDark">#f5f5f5</color>
+    <color name="textOnPrimaryHighEmphasis">#ffffff</color>
+    <color name="textOnPrimaryMediumEmphasis">#99ffffff</color>
+    <color name="textOnPrimaryDisabled">#60ffffff</color>
+    <color name="textOnSecondaryHighEmphasis">#dd000000</color>
+    <color name="textOnSecondaryMediumEmphasis">#99000000</color>
+    <color name="textOnSecondaryDisabled">#60000000</color>
+    <color name="textOnSurfaceHighEmphasis">#dd000000</color>
+    <color name="textOnSurfaceMediumEmphasis">#99000000</color>
+    <color name="textOnSurfaceDisabled">#60000000</color>
+</resources>

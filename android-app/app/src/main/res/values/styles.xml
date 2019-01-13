@@ -1,0 +1,43 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryVariant</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorAccent">@color/colorSecondary</item>
+        <item name="colorOnPrimaryEmphasisHighType">@color/textOnPrimaryHighEmphasis</item>
+        <item name="colorOnPrimaryEmphasisMedium">@color/textOnPrimaryMediumEmphasis</item>
+        <item name="colorOnPrimaryDisabled">@color/textOnPrimaryDisabled</item>
+        <item name="colorOnSecondary">@color/textOnSecondaryHighEmphasis</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurfaceEmphasisHighType">@color/textOnSurfaceHighEmphasis</item>
+        <item name="colorOnSurfaceEmphasisMedium">@color/textOnSurfaceMediumEmphasis</item>
+        <item name="colorOnSurfaceDisabled">@color/textOnSurfaceDisabled</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.TextInputLayout.OutlinedBox.TILOnPrimary">
+        <!--This represents color of activated floating label-->
+        <item name="hintTextColor">@color/textOnPrimaryHighEmphasis</item>
+        <!--This is a color state list to represent box stroke color in different states-->
+        <item name="boxStrokeColor">@color/auth_box_stroke_color</item>
+        <!--Represents the color of the hint inside the child TextInputEditText-->
+        <item name="android:textColorHint">@color/textOnPrimaryMediumEmphasis</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.TILOnPrimary">
+        <!--This represents color of activated floating label-->
+        <item name="hintTextColor">@color/textOnPrimaryHighEmphasis</item>
+        <!--This is a color state list to represent box stroke color in different states-->
+        <item name="boxStrokeColor">@color/auth_box_stroke_color</item>
+        <!--Represents the color of the hint inside the child TextInputEditText-->
+        <item name="android:textColorHint">@color/textOnPrimaryMediumEmphasis</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.Toolbar.MainToolbar">
+        <item name="titleTextColor">@color/textOnPrimaryHighEmphasis</item>
+    </style>
+
+</resources>
